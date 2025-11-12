@@ -52,7 +52,7 @@ class _QuizPageState extends State<QuizPage> {
   final List<Question> questions = [
     Question(
       question: 'ຄິດຈັງໃດກ້ບລູກທັງ3ຄົນ?',
-      answers: ['ຮ້ກຫລາຍ', 'ໄຊ້ເງີນເກັງ', 'ຈົມເກັງ', 'ປົກກະຕິ'],
+      answers: ['ຮັກຫລາຍ', 'ໄຊ້ເງີນເກັງ', 'ຈົມເກັງ', 'ປົກກະຕິ'],
       correctIndex: 0, 
     ),
     Question(
@@ -61,13 +61,13 @@ class _QuizPageState extends State<QuizPage> {
       correctIndex: 3, 
     ),
     Question(
-      question: 'ແມ່ມ້ກເຮ້ດຫຍັງ?',
+      question: 'ແມ່ມັກເຮັດຫຍັງ?',
       answers: ['ອອກກຳລັງກາຍ', 'ຫລີ້ນtaekwondo', 'ຫາຜີ', 'ເບີງຫນັງ'],
-      correctIndex: 2, 
+      correctIndex: 3, 
     ),
     Question(
       question: 'ສະຖານທີອະພີຮັກຢາກໄປທີສູດ?',
-      answers: ['ເຮີອນ', 'ອາເມລີກາ', 'ໄທ', 'ຍີ່ປຸ່ນ'],
+      answers: ['ເຮືອນ', 'ອາເມລີກາ', 'ໄທ', 'ຍີ່ປຸ່ນ'],
       correctIndex: 0, 
     ),
     // คำถามที่ 5 จะเป็นแบบ text input (ไม่อยู่ในลิสต์นี้)
